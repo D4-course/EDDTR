@@ -1,0 +1,61 @@
+Namespace(data_path={'data': '../data/davis/dataset/davis_dataset_processed.csv', 'prot_dic': '../dictionary/davis_prot_dictionary.txt', 'smiles_dic': '../dictionary/davis_smiles_dictionary.txt', 'clusters': ['../data/davis/clusters/test_cluster.csv', '../data/davis/clusters/train_cluster_3.csv', '../data/davis/clusters/train_cluster_2.csv', '../data/davis/clusters/train_cluster_1.csv', '../data/davis/clusters/train_cluster_4.csv', '../data/davis/clusters/train_cluster_0.csv']}, log_dir='/home/zelda/Explainable-Deep-DT-Representations/src/logs/29_11_22_15_18/', protein_layer='Prot_CNN_2', protein_sequence='MSQERPTFYRQELNKTIWEVPERYQNLSPVGSGAYGSVCAAFDTKTGLRVAVKKLSRPFQSIIHAKRTYRELRLLKHMKHENVIGLLDVFTPARSLEEFNDVYLVTHLMGADLNNIVKCQKLTDDHVQFLIYQILRGLKYIHSADIIHRDLKPSNLAVNEDCELKILDFGLARHTDDEMTGYVATRWYRAPEIMLNWMHYNQTVDIWSVGCIMAELLTGRTLFPGTDHIDQLKLILRLVGTPGAELLKKISSESARNYIQSLTQMPKMNFANVFIGANPLAVDLLEKMLVLDSDKRITAAQALAHAYFAQYHDPDDEPVADPYDQSFESRDLLIDEWKSLTYDEVISFVPPPLDQEEMES', sites=[37, 50, 52, 74, 83, 85, 103, 105, 108], smiles_layer='Prot_CNN_2', smiles_string='Nc1nccc(-c2c(-c3ccc(F)cc3)ncn2CC2CC2)n1', thresholds=[0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9], window=[0, 1, 2, 3, 4, 5])
+Window Size: 0 Matching(%): 0.0
+Window Size: 1 Matching(%): 44.44444444444444
+Window Size: 2 Matching(%): 44.44444444444444
+Window Size: 3 Matching(%): 44.44444444444444
+Window Size: 4 Matching(%): 55.55555555555556
+Window Size: 5 Matching(%): 66.66666666666666
+Threshold: 10.0 Window Size: 0 Matching(%): 0.0
+Threshold: 10.0 Window Size: 1 Matching(%): 0.0
+Threshold: 10.0 Window Size: 2 Matching(%): 0.0
+Threshold: 10.0 Window Size: 3 Matching(%): 0.0
+Threshold: 10.0 Window Size: 4 Matching(%): 0.0
+Threshold: 10.0 Window Size: 5 Matching(%): 0.0
+Threshold: 20.0 Window Size: 0 Matching(%): 0.0
+Threshold: 20.0 Window Size: 1 Matching(%): 24.999937500156253
+Threshold: 20.0 Window Size: 2 Matching(%): 49.99991666680556
+Threshold: 20.0 Window Size: 3 Matching(%): 49.99991666680556
+Threshold: 20.0 Window Size: 4 Matching(%): 57.142775510320696
+Threshold: 20.0 Window Size: 5 Matching(%): 49.999937500078126
+Threshold: 30.0 Window Size: 0 Matching(%): 0.0
+Threshold: 30.0 Window Size: 1 Matching(%): 24.999937500156253
+Threshold: 30.0 Window Size: 2 Matching(%): 49.99991666680556
+Threshold: 30.0 Window Size: 3 Matching(%): 49.99991666680556
+Threshold: 30.0 Window Size: 4 Matching(%): 57.142775510320696
+Threshold: 30.0 Window Size: 5 Matching(%): 49.999937500078126
+Threshold: 40.0 Window Size: 0 Matching(%): 0.0
+Threshold: 40.0 Window Size: 1 Matching(%): 24.999937500156253
+Threshold: 40.0 Window Size: 2 Matching(%): 49.99991666680556
+Threshold: 40.0 Window Size: 3 Matching(%): 49.99991666680556
+Threshold: 40.0 Window Size: 4 Matching(%): 57.142775510320696
+Threshold: 40.0 Window Size: 5 Matching(%): 49.999937500078126
+Threshold: 50.0 Window Size: 0 Matching(%): 0.0
+Threshold: 50.0 Window Size: 1 Matching(%): 24.999937500156253
+Threshold: 50.0 Window Size: 2 Matching(%): 49.99991666680556
+Threshold: 50.0 Window Size: 3 Matching(%): 49.99991666680556
+Threshold: 50.0 Window Size: 4 Matching(%): 57.142775510320696
+Threshold: 50.0 Window Size: 5 Matching(%): 49.999937500078126
+Threshold: 60.0 Window Size: 0 Matching(%): 0.0
+Threshold: 60.0 Window Size: 1 Matching(%): 74.99981250046875
+Threshold: 60.0 Window Size: 2 Matching(%): 83.33319444467594
+Threshold: 60.0 Window Size: 3 Matching(%): 83.33319444467594
+Threshold: 60.0 Window Size: 4 Matching(%): 85.71416326548105
+Threshold: 60.0 Window Size: 5 Matching(%): 74.99990625011719
+Threshold: 70.0 Window Size: 0 Matching(%): 0.0
+Threshold: 70.0 Window Size: 1 Matching(%): 74.99981250046875
+Threshold: 70.0 Window Size: 2 Matching(%): 83.33319444467594
+Threshold: 70.0 Window Size: 3 Matching(%): 83.33319444467594
+Threshold: 70.0 Window Size: 4 Matching(%): 85.71416326548105
+Threshold: 70.0 Window Size: 5 Matching(%): 74.99990625011719
+Threshold: 80.0 Window Size: 0 Matching(%): 0.0
+Threshold: 80.0 Window Size: 1 Matching(%): 74.99981250046875
+Threshold: 80.0 Window Size: 2 Matching(%): 83.33319444467594
+Threshold: 80.0 Window Size: 3 Matching(%): 83.33319444467594
+Threshold: 80.0 Window Size: 4 Matching(%): 85.71416326548105
+Threshold: 80.0 Window Size: 5 Matching(%): 87.49989062513673
+Threshold: 90.0 Window Size: 0 Matching(%): 0.0
+Threshold: 90.0 Window Size: 1 Matching(%): 99.99975000062501
+Threshold: 90.0 Window Size: 2 Matching(%): 99.99983333361112
+Threshold: 90.0 Window Size: 3 Matching(%): 99.99983333361112
+Threshold: 90.0 Window Size: 4 Matching(%): 99.99985714306123
+Threshold: 90.0 Window Size: 5 Matching(%): 99.99987500015625
