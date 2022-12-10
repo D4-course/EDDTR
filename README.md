@@ -105,9 +105,15 @@ python cnn_fcnn_model.py --option Evaluation
 ```
 python gradram_testing.py --protein_sequence MLEICLKLVG... --smiles_string Cc1cn(... --window 0 1 2 ... --thresholds 0.3 0.4 0.5 ... --sites 5 10 50 ...
 ```
-
+## Dockerization
+### To create the docker image run 
 `docker build -t eddtr-image .`
 
+### To Run the container using the image created
 `docker run -d --name eddtr-container -p 8000:3000 eddtr-image`
 
+### Video Link to the project summary
 https://youtu.be/7DFvC0CmOgU
+
+### Slide deck 
+https://docs.google.com/presentation/d/1EIzPxhotYRR0NgduZURZcLn9gZ3YRCGCf2f0sMu7twA/edit?usp=sharing
